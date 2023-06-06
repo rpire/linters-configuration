@@ -21,6 +21,6 @@ gem 'rubocop', '~> 1.52', require: false
 ## Set-up GitHub Actions
 Follow these steps to enable linter checks on GitHub Pull Requests:
 
-1. Copy the `.github` from this directory to your project's root folder.
+1. Copy the [.github](./.github) folder from this directory to your project's root folder.
 2. Once this is done, linter checks should run on each GitHub Pull Request.
 3. Read the [root level README.md](../README.md) file to have a bigger picture of how to address and fix linter errors in GitHub Actions.
