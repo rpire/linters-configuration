@@ -1,8 +1,10 @@
-# Ruby on Rails Linters
+# Ruby on Rails Linters 🛤️
 
 This guide will help you configure [RuboCop](https://rubocop.org/) as a **Static Code Analyzer (linter)** and code formatter in your Ruby on Rails Project. Since this guide was meant for an API only application, it won't contain a section to configure a linter for styles.
 
 ## Set-up Linters in your Local Environment
+
+### RuboCop 🤖
 Follow these steps to configure **RuboCop** in your project:
 
 1. Add this line to your `Gemfile`:
