@@ -4,9 +4,9 @@ This guide will help you configure [ESLint](https://eslint.org/) and [Stylelint]
 
 ## Set-up Linters in your Local Environment
 Steps to follow are different depending on the linter to be configured:
-- Go to [ESLint](#eslint-🔩)
-- Go to [Stylelint](#stylelint-🤵)
-- Go to [Prettier](#prettier-🦋)
+- Go to [ESLint](#eslint-)
+- Go to [Stylelint](#stylelint-)
+- Go to [Prettier](#prettier-)
 ---
 
 ### ESLint 🔩
