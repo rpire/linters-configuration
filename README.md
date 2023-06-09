@@ -1,11 +1,13 @@
 # Linters Configuration
 
+This repository contains onfiguration files and implementation instructions for the static code analyzers (linters) used by the **Borluv Developments** team.
+
 ## How to use this repository? 🤷
 
-Each directory listed below contains configuration files to one programming language or framework and a `README.md` file with detailed instructions:
+Each directory listed below contains configuration files and a `README.md` file with detailed instructions for one programming language or framework:
 
 - [Ruby on Rails](./ruby-on-rails/)
-- [React + TypeScript (coming soon)](#)
+- [React + TypeScript + Sass](./react-ts-sass/)
 
 Follow those instructions in order to set up linters or validators in your repo.
 
