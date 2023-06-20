@@ -16,7 +16,7 @@ jobs:
           ruby-version: 3.2.2
       - name: Setup Rubocop
         run: |
-          gem install --no-document rubocop -v '>= 1.0, < 2.0' # https://docs.rubocop.org/en/stable/installation/
+          gem install --no-document rubocop -v 1.52 # https://docs.rubocop.org/en/stable/installation/
           [ -f .rubocop.yml ] || wget https://raw.githubusercontent.com/borluv/linters-configuration/main/ruby-on-rails/.rubocop.yml
       - name: Rubocop Report
         run: rubocop --color
