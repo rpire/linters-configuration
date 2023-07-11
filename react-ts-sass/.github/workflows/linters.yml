@@ -16,7 +16,7 @@ jobs:
           node-version: '18.x'
       - name: Setup ESLint
         run: |
-          npm install --save-dev npm install --save-dev typescript@5.0.4 eslint@8.42.0 eslint-plugin-react@7.32.2 eslint-plugin-react-hooks@4.6.0 eslint-plugin-import@2.27.5 eslint-config-prettier@8.8.0
+          npm install --save-dev npm install --save-dev typescript@5.1.6 eslint@7.32.0 eslint-plugin-react@7.32.2 eslint-plugin-react-hooks@4.6.0 eslint-plugin-import@2.27.5 @typescript-eslint/eslint-plugin@5.61.0 @typescript-eslint/parser@5.61.0 eslint-config-prettier@8.8.0
           [ -f .eslintrc.json ] || wget https://raw.githubusercontent.com/borluv/linters-configuration/main/react+typescript+sass/.eslintrc.json
       - name: ESLint Report
         run: npx eslint . --ext ts,tsx
@@ -30,7 +30,7 @@ jobs:
           node-version: '18.x'
       - name: Setup Stylelint
         run: |
-          npm install --save-dev stylelint@15.7.0 stylelint-config-standard-scss@9.0.0 stylelint-config-css-modules@4.2.0
+          npm install --save-dev stylelint@15.10.0 stylelint-config-standard-scss@10.0.0 stylelint-config-css-modules@4.2.0
           [ -f .stylelintrc.json ] || wget https://raw.githubusercontent.com/borluv/linters-configuration/main/react+typescript+sass/.stylelintrc.json
       - name: Stylelint Report
         run: npx stylelint "**/*.scss"
