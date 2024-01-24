@@ -13,10 +13,10 @@ jobs:
       - uses: actions/checkout@v3
       - uses: ruby/setup-ruby@v1
         with:
-          ruby-version: 3.2.2
+          ruby-version: 3.3.0
       - name: Setup Rubocop
         run: |
-          gem install --no-document rubocop -v 1.54.1 # https://docs.rubocop.org/en/stable/installation/
+          gem install --no-document rubocop -v 1.56.2 # https://docs.rubocop.org/en/stable/installation/
           [ -f .rubocop.yml ] || wget https://raw.githubusercontent.com/borluv/linters-configuration/main/ruby-on-rails/.rubocop.yml
       - name: Rubocop Report
         run: rubocop --color
