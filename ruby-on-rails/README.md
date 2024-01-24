@@ -9,7 +9,7 @@ Follow these steps to configure **RuboCop** in your project:
 
 1. Add this line to your `Gemfile`:
 ```
-gem 'rubocop', '~> 1.54.1', require: false
+gem 'rubocop', '~> 1.56.2', require: false
 ```
 2. Run `bundle install` to install **RuboCop** and its dependencies.
 3. Copy [.rubocop.yml](./.rubocop.yml) to your project's root folder.
