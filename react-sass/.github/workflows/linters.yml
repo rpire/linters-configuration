@@ -17,7 +17,7 @@ jobs:
       - name: Setup ESLint
         run: |
           npm install --save-dev npm install --save-dev eslint@8.56.0 eslint-plugin-react@7.33.2 eslint-plugin-react-hooks@4.6.0 eslint-plugin-import@2.29.1 eslint-config-prettier@9.1.0
-          [ -f .eslintrc.json ] || wget https://raw.githubusercontent.com/borluv/linters-configuration/main/react-js-sass/.eslintrc.json
+          [ -f .eslintrc.json ] || wget https://raw.githubusercontent.com/borluv/linters-configuration/main/react-sass/.eslintrc.json
       - name: ESLint Report
         run: npx eslint . --ext js,jsx
   stylelint:
@@ -31,7 +31,7 @@ jobs:
       - name: Setup Stylelint
         run: |
           npm install --save-dev stylelint@16.2.1 stylelint-config-standard-scss@13.0.0 stylelint-config-css-modules@4.4.0
-          [ -f .stylelintrc.json ] || wget https://raw.githubusercontent.com/borluv/linters-configuration/main/react-js-sass/.stylelintrc.json
+          [ -f .stylelintrc.json ] || wget https://raw.githubusercontent.com/borluv/linters-configuration/main/react-sass/.stylelintrc.json
       - name: Stylelint Report
         run: npx stylelint "**/*.scss"
   nodechecker:

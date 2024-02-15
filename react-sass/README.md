@@ -1,6 +1,6 @@
-# React + JavaScript + Sass Linters ⚛️
+# React + Sass Linters ⚛️
 
-This guide will help you configure [ESLint](https://eslint.org/) and [Stylelint](https://stylelint.io/) as **Static Code Analyzers (linters)** and [Prettier](https://prettier.io/) as a code formatter in your React + JavaScript + Sass project.
+This guide will help you configure [ESLint](https://eslint.org/) and [Stylelint](https://stylelint.io/) as **Static Code Analyzers (linters)** and [Prettier](https://prettier.io/) as a code formatter in your React + Sass project.
 
 ## Set-up Linters in your Local Environment
 Steps to follow are different depending on the linter to be configured:
