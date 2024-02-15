@@ -7,6 +7,7 @@ This repository contains onfiguration files and implementation instructions for 
 Each directory listed below contains configuration files and a `README.md` file with detailed instructions for one programming language or framework:
 
 - [Ruby on Rails](./ruby-on-rails/)
+- [React + Sass](./react-sass)
 - [React + TypeScript + Sass](./react-ts-sass/)
 
 Follow those instructions in order to set up linters or validators in your repo.
