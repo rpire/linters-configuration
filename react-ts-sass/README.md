@@ -14,7 +14,7 @@ Follow these steps to configure **ESLint** in your project:
 
 1. Run this line in your terminal:
 ```
-npm install --save-dev typescript@5.1.6 eslint@7.32.0 eslint-plugin-react@7.25.3 eslint-plugin-react-hooks@4.6.0 eslint-plugin-import@2.26.0 @typescript-eslint/eslint-plugin@5.61.0 @typescript-eslint/parser@5.61.0 eslint-config-prettier@8.8.0
+npm install --save-dev typescript@5.2.2 eslint@8.56.0 eslint-plugin-react@ç7.33.2 eslint-plugin-react-hooks@4.6.0 eslint-plugin-import@2.29.1 @typescript-eslint/eslint-plugin@7.0.1 @typescript-eslint/parser@7.0.1 eslint-config-prettier@9.1.0
 ```
 2. Copy [.eslintrc.json](./.eslintrc.json) to your project's root folder.
 3. Run `npx eslint . --ext ts,tsx` to display linter errors if any.
@@ -31,7 +31,7 @@ Follow these steps to configure **Stylelint** in your project:
 
 1. Run this line in your terminal:
 ```
-npm install --save-dev stylelint@15.10.1 stylelint-config-standard-scss@10.0.0 stylelint-config-css-modules@4.2.0
+npm install --save-dev stylelint@16.2.1 stylelint-config-standard-scss@13.0.0 stylelint-config-css-modules@4.4.0
 ```
 2. Copy [.stylelintrc.json](./.stylelintrc.json) to your project's root folder.
 3. Run `npx stylelint "**/*.scss"` to display linter errors if any.
