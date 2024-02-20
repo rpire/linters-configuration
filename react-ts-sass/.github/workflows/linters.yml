@@ -16,7 +16,7 @@ jobs:
           node-version: 20
       - name: Setup ESLint
         run: |
-          npm install --save-dev typescript@5.2.2 eslint@8.56.0 eslint-plugin-react@ç7.33.2 eslint-plugin-react-hooks@4.6.0 eslint-plugin-import@2.29.1 @typescript-eslint/eslint-plugin@7.0.1 @typescript-eslint/parser@7.0.1 eslint-config-prettier@9.1.0
+          npm install --save-dev typescript@5.2.2 eslint@8.56.0 eslint-plugin-react@7.33.2 eslint-plugin-react-hooks@4.6.0 eslint-plugin-import@2.29.1 @typescript-eslint/eslint-plugin@7.0.1 @typescript-eslint/parser@7.0.1 eslint-config-prettier@9.1.0
           [ -f .eslintrc.json ] || wget https://raw.githubusercontent.com/borluv/linters-configuration/main/react-ts-sass/.eslintrc.json
       - name: ESLint Report
         run: npx eslint . --ext ts,tsx
