@@ -5,7 +5,7 @@
     "dist/**",
     "**/reset*.css",
     "**/bootstrap*.css",
-    "**/*.js",
-    "**/*.jsx"
+    "**/*.ts",
+    "**/*.tsx"
   ]
 }
