@@ -1,0 +1,17 @@
+{
+	"maxerr": false,
+	"text-ignore-regex": false,
+	"raw-ignore-regex": false,
+	"attr-name-ignore-regex": false,
+	"id-class-ignore-regex": false,
+	"line-max-len-ignore-regex": false,
+	"rules": {
+		"doctype-first": true,
+		"attr-new-line": ["error", 3],
+		"attr-no-dup": true,
+		"attr-no-unsafe-char": true,
+		"title-max-len": ["error", 50],
+		"title-no-dup": true
+	},
+	"ignoreFiles": ["node_modules", "dist/*.html", "build/*.html"]
+}
