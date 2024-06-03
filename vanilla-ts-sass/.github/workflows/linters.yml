@@ -18,7 +18,7 @@ jobs:
         run: |
           npm install --save-dev @linthtml/linthtml@0.9.6
           [ -f .linthtmlrc.json ] || wget https://raw.githubusercontent.com/rpire/linters-configuration/main/vanilla-ts-sass/.linthtmlrc.json
-      -name: LintHTML Report
+      - name: LintHTML Report
         run: npx linthtml .
   eslint:
     name: ESLint
