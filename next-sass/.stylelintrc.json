@@ -1,0 +1,12 @@
+{
+  "extends": ["stylelint-config-standard-scss"],
+  "ignoreFiles": [
+    "./next/**",
+    "build/**",
+    "dist/**",
+    "**/reset*.css",
+    "**/bootstrap*.css",
+    "**/*.ts",
+    "**/*.tsx"
+  ]
+}
