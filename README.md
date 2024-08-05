@@ -10,6 +10,7 @@ Each directory listed below contains configuration files and a `README.md` file 
 - [TypeScript + Sass](./vanilla-ts-sass/)
 - [React + Sass](./react-sass)
 - [React + TypeScript + Sass](./react-ts-sass/)
+- [Next + Sass](./next-sass/)
 
 Follow those instructions in order to set up linters or validators in your repo.
 
