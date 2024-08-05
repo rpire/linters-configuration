@@ -1,0 +1,32 @@
+{
+  "extends": [
+    "eslint:recommended",
+    "plugin:@typescript-eslint/recommended",
+    "next",
+    "prettier"
+  ],
+  "rules": {
+    "arrow-body-style": ["error", "as-needed"],
+    "react/self-closing-comp": ["error", { "component": true, "html": true }],
+    "@typescript-eslint/explicit-function-return-type": "error",
+    "@typescript-eslint/consistent-type-imports": [
+      "error",
+      {
+        "prefer": "type-imports"
+      }
+    ],
+    "react/jsx-filename-extension": ["warn", { "extensions": [".ts", ".tsx"] }],
+    "react/react-in-jsx-scope": "off",
+    "default-param-last": "error",
+    "import/no-unresolved": "off",
+    "import/prefer-default-export": "error",
+    "sort-imports": [
+      "error",
+      {
+        "memberSyntaxSortOrder": ["all", "multiple", "single", "none"]
+      }
+    ],
+    "no-shadow": "off",
+    "no-console": 1
+  }
+}
